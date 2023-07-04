@@ -1,29 +1,45 @@
-# dd
+# weather dashboard
 
-  ![License](https://img.shields.io/badge/License-GPL%203.0-brightgreen)
+ ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-  ##Description
-  ddddd
+##Description
 
-  ##Usage
-  ddddddddddddddddd
+weather for different cities
 
-  ##Installation
-  ddd
+ ##Table of Contents
 
-  ##Contributions
-  dddddd
+* [Description](#description)
+* [Usage](#usage)
+* [Installation](#installation)
+* [Contributions](#contributions)
+* [Test](#test)
+* [Questions](#questions)
+* [Email](#email)
 
-  ##Test
-  dd
+ ##Usage
 
-  
-  ##License
+ f
 
-This application is covered under the GPL 3.0 license.
+##Installation
 
-  ##Contact
-  GitHub: (https://github.com/dd)
-  
-  ##Email
-  dd
+ f
+
+##Contributions
+
+f
+
+##Test
+
+f
+
+##License
+
+This application is covered under the MIT license.
+
+ ##Questions
+
+GitHub: (https://github.com/f)
+
+##Email
+
+f

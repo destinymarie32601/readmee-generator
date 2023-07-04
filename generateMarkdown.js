@@ -27,35 +27,46 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(data) {       
+  let markdown = `# ${data.title}\n\n`;      
 
-  ${renderLicenseBadge(data.license)}
+  markdown += ` ${renderLicenseBadge(data.license)}\n\n`;
 
-  ##Description
-  ${data.description}
+  markdown += `##Description\n\n`;
+  markdown += `${data.description}\n\n`;
 
-  ##Usage
-  ${data.usage}
+  markdown += ` ##Table of Contents\n\n`;
+  markdown += `* [Description](#description)\n`;
+  markdown += `* [Usage](#usage)\n`;
+  markdown += `* [Installation](#installation)\n`;
+  markdown += `* [Contributions](#contributions)\n`;
+  markdown += `* [Test](#test)\n`;
+  markdown += `* [Questions](#questions)\n`;
+  markdown += `* [Email](#email)\n\n`;
 
-  ##Installation
-  ${data.installation}
+  markdown += ` ##Usage\n\n`;
+  markdown += ` ${data.usage}\n\n`;
 
-  ##Contributions
-  ${data.contributions}
+  markdown += `##Installation\n\n`
+  markdown += ` ${data.installation}\n\n`
 
-  ##Test
-  ${data.test}
+  markdown += `##Contributions\n\n`;
+  markdown += `${data.contributions}\n\n`;
+
+  markdown += `##Test\n\n`;
+  markdown += `${data.test}\n\n`;
 
   
-  ${renderLicenseSection(data.license)}
+  markdown += `${renderLicenseSection(data.license)}\n\n`;
 
-  ##Contact
-  GitHub: (https://github.com/${data.github})
+  markdown += ` ##Questions\n\n`;
+  markdown += `GitHub: (https://github.com/${data.github})\n\n`;
   
-  ##Email
-  ${data.email}
-`;
+  markdown += `##Email\n\n`;
+  markdown += `${data.email}\n`;
+
+  return markdown;
+
 }
 
 module.exports = generateMarkdown;
