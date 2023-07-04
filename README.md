@@ -1,12 +1,12 @@
-# weather dashboard
+# dddd
 
- ![License](https://img.shields.io/badge/License-MIT-brightgreen)
+ ![License](https://img.shields.io/badge/License-BSD%203-Clause-brightgreen)
 
-##Description
+#Description
 
-weather for different cities
+fff
 
- ##Table of Contents
+ #Table of Contents
 
 * [Description](#description)
 * [Usage](#usage)
@@ -16,30 +16,30 @@ weather for different cities
 * [Questions](#questions)
 * [Email](#email)
 
- ##Usage
+ #Usage
 
- f
+ ff
 
-##Installation
+#Installation
 
- f
+ d
 
-##Contributions
+#Contributions
 
-f
+dddd
 
-##Test
+#Test
 
-f
+ddd
 
 ##License
 
-This application is covered under the MIT license.
+This application is covered under the BSD 3-Clause license.
 
- ##Questions
+ #Questions
 
-GitHub: (https://github.com/f)
+GitHub: (https://github.com/dd)
 
-##Email
+#Email
 
-f
+dd
