@@ -32,7 +32,7 @@ function generateMarkdown(data) {
 
   markdown += ` ${renderLicenseBadge(data.license)}\n\n`;
 
-  markdown += `#Description\n\n`;
+  markdown += `\n##Description\n\n`;
   markdown += `${data.description}\n\n`;
 
   markdown += ` #Table of Contents\n\n`;
@@ -44,25 +44,25 @@ function generateMarkdown(data) {
   markdown += `* [Questions](#questions)\n`;
   markdown += `* [Email](#email)\n\n`;
 
-  markdown += ` #Usage\n\n`;
+  markdown += `\n##Usage\n\n`;
   markdown += ` ${data.usage}\n\n`;
 
-  markdown += `#Installation\n\n`
+  markdown += `\n##Installation\n\n`
   markdown += ` ${data.installation}\n\n`
 
-  markdown += `#Contributions\n\n`;
+  markdown += `\n##Contributions\n\n`;
   markdown += `${data.contributions}\n\n`;
 
-  markdown += `#Test\n\n`;
+  markdown += `\n##Test\n\n`;
   markdown += `${data.test}\n\n`;
 
   
   markdown += `${renderLicenseSection(data.license)}\n\n`;
 
-  markdown += ` #Questions\n\n`;
+  markdown += `\n##Questions\n\n`;
   markdown += `GitHub: (https://github.com/${data.github})\n\n`;
   
-  markdown += `#Email\n\n`;
+  markdown += `\n##Email\n\n`;
   markdown += `${data.email}\n`;
 
   return markdown;
