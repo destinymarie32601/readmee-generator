@@ -1,11 +1,8 @@
-# testing
-
- ![License](https://img.shields.io/badge/License-MIT-brightgreen)
-
+# Professional ReadMe Generator
 
 ## Description
 
-testing
+This is a professional ReadMe Generator command line application. This application is started by opening the terminal and typing node index.js. This application uses the Inquirer package, and solves the need for developers manually hardcoding their ReadMe.md.
 
  ## Table of Contents
 
@@ -20,37 +17,30 @@ testing
 
 ## Usage
 
- testing
+ Video Walk through links : Part 1: https://youtu.be/bPLYJdKeeV8 
+ Part 2: https://youtu.be/RfjstMYDKKk 
 
 
 ## Installation
 
- testing
+ Node and Inquirer
 
 
 ## Contributions
 
-test
+For this project, I referenced a youtube tutorial demonstrating a professional Read Me generator : DopeDev. (2023, January 15). How to create a README Generator (TUTORIAL) [Video file]. Retrieved from https://www.youtube.com/watch?v=9YivEQFpmHQ 
 
 
 ## Test
 
-test
-
-
-## License
-
-This application is covered under the MIT license.
-
-* [License](https://mit-license.org/)
-
-
+N/A
 
 ## Questions
 
-GitHub: (https://github.com/test)
+GitHub: (https://github.com/destinymarie32601)
+GitHub Repo: https://github.com/destinymarie32601/readmee-generator 
 
 
 ## Email
 
-test
+destiny32601@gmail.com
