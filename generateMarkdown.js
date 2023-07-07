@@ -19,23 +19,23 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license) { //function to create license if specified by user
   if (license === 'None') {
     return '';
   }
-  return `##License\n\nThis application is covered under the ${license} license.`;
+  return `\n## License\n\nThis application is covered under the ${license} license.`;
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {       
-  let markdown = `# ${data.title}\n\n`;      
+function generateMarkdown(data) {       //generate the markdown data
+  let markdown = `# ${data.title}\n\n`;       //title
 
-  markdown += ` ${renderLicenseBadge(data.license)}\n\n`;
+  markdown += ` ${renderLicenseBadge(data.license)}\n\n`; //license badge
 
-  markdown += `\n## Description\n\n`;
-  markdown += `${data.description}\n\n`;
+  markdown += `\n## Description\n\n`; //description
+  markdown += `${data.description}\n\n`; //data that user typed in
 
-  markdown += ` ## Table of Contents\n\n`;
+  markdown += ` ## Table of Contents\n\n`; //generate table of contents
   markdown += `* [Description](#description)\n`;
   markdown += `* [Usage](#usage)\n`;
   markdown += `* [Installation](#installation)\n`;
@@ -44,10 +44,10 @@ function generateMarkdown(data) {
   markdown += `* [Questions](#questions)\n`;
   markdown += `* [Email](#email)\n\n`;
 
-  markdown += `\n## Usage\n\n`;
+  markdown += `\n## Usage\n\n`; //usage information
   markdown += ` ${data.usage}\n\n`;
 
-  markdown += `\n## Installation\n\n`
+  markdown += `\n## Installation\n\n` //installation
   markdown += ` ${data.installation}\n\n`
 
   markdown += `\n## Contributions\n\n`;
@@ -57,7 +57,8 @@ function generateMarkdown(data) {
   markdown += `${data.test}\n\n`;
 
   
-  markdown += `${renderLicenseSection(data.license)}\n\n`;
+  markdown += `${renderLicenseSection(data.license)}\n\n`; //renders license if any
+  markdown += `${renderLicenseLink(data.license)}\n\n`;
 
   markdown += `\n## Questions\n\n`;
   markdown += `GitHub: (https://github.com/${data.github})\n\n`;

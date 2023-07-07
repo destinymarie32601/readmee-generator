@@ -1,9 +1,11 @@
-# Readme Generator
+# j
+
+ ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 
 ## Description
 
-This is a command line application using inquirer to easily and conveniently generate professional ReadMe files for developers. This project is started by entering "node index.js" in the terminal. The user will then be prompted to enter the necessary requirements for developing a professional ReadMe.After the user enters their Readme information in all of the prompts, the application will send the ReadMe to the ReadMe.md file, with a table of contents. This project solves the need to manually hardcode a ReadMe file, and is a very convenient addition and tool for developers. Throughout this project, I was able to further my knowledge on command line applications and inquirer.
+j
 
  ## Table of Contents
 
@@ -18,31 +20,37 @@ This is a command line application using inquirer to easily and conveniently gen
 
 ## Usage
 
- This project contains a index.js file, and generateMarkdown.js file, and uses the Inquirer package. The user can enter the title of their project, the description, the usage, the installation process, contributions, test information, their github username, their email and their licensce. 
+ j
 
 
 ## Installation
 
- Inquirer package
+ j
 
 
 ## Contributions
 
-DopeDev [YouTube Channel]. (2022, Aug, 11). How to create a README Generator (TUTORIAL) [Video]. YouTube.How to create a README Generator (TUTORIAL) - YouTube
+h
 
 
 ## Test
 
-N/A
+j
 
+
+## License
+
+This application is covered under the MIT license.
+
+* [License](#license)
 
 
 
 ## Questions
 
-GitHub: (https://github.com/destinymarie32601)
+GitHub: (https://github.com/j)
 
 
 ## Email
 
-destiny32601@gmail.com
+j

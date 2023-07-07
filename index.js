@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+const inquirer = require('inquirer'); //install inquirer
 
-const writeFile = require('fs').promises.writeFile;
+const writeFile = require('fs').promises.writeFile; //
 
 const generateMarkdown = require('./generateMarkdown.js');
 
@@ -58,9 +58,7 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { 
-    return writeFile(fileName, data);
-}
+
 
 // TODO: Create a function to initialize app
 function init() { 
