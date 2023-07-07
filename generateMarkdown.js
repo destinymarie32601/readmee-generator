@@ -14,9 +14,22 @@ function renderLicenseLink(license) {
   if (license === 'None') {
     return '';
   }
-  return `* [License](#license)\n`;
-}
 
+const licenseUrls = {
+  'Apache 2.0': 'https://www.apache.org/licenses/LICENSE-2.0.html',
+  'MIT': 'https://mit-license.org/',
+  'GPL 3.0': 'https://www.gnu.org/licenses/gpl-3.0.en.html',
+  'BSD 3-Clause': 'https://opensource.org/license/BSD-3-clause/',
+  'Boost 1.0': 'https://www.boost.org/users/license.html#:~:text=Boost%20Software%20License%20-%20Version%201.0%20-%20August,object%20code%20generated%20by%20a%20source%20language%20processor.',
+  'MPL 3.0': 'https://www.mozilla.org/en-US/MPL/2.0/',
+  'CC0 1.0': 'https://creativecommons.org/publicdomain/zero/1.0/'
+};
+
+const licenseUrl = licenseUrls[license];
+
+return `* [License](${licenseUrl})\n`;
+
+}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) { //function to create license if specified by user

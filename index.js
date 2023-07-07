@@ -1,10 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer'); //install inquirer
-
 const writeFile = require('fs').promises.writeFile; //
-
 const generateMarkdown = require('./generateMarkdown.js');
-
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -55,11 +52,6 @@ const questions = [
             message: 'Enter your email',
         },
     ]
-
-
-// TODO: Create a function to write README file
-
-
 // TODO: Create a function to initialize app
 function init() { 
     inquirer
