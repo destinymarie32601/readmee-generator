@@ -28,7 +28,7 @@ This is a professional ReadMe Generator command line application. This applicati
 
 ## Contributions
 
-For this project, I referenced a youtube tutorial demonstrating a professional Read Me generator : DopeDev. (2023, January 15). How to create a README Generator (TUTORIAL) [Video file]. Retrieved from https://www.youtube.com/watch?v=9YivEQFpmHQ 
+For this project, I referenced a youtube tutorial demonstrating a professional Read Me generator : DopeDev.  (2022, Aug 11). How to create a README Generator (TUTORIAL) [Video file]. Retrieved from https://www.youtube.com/watch?v=9YivEQFpmHQ 
 
 
 ## Test
